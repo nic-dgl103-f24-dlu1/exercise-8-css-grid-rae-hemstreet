@@ -12,3 +12,19 @@ body {
   "main main main main sidebar"
   "footer footer footer footer footer";
 }
+
+header {
+  grid-area: header;
+}
+
+nav {
+  grid-area: nav;
+}
+
+aside {
+  grid-area: sidebar;
+}
+
+footer {
+  grid-area: footer;
+}
