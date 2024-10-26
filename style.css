@@ -25,6 +25,10 @@ header {
   grid-area: header;
   justify-self: center;
   align-self: center;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  grid-column-start: 1;
+  grid-column-end: 6;
 }
 
 header img {
@@ -64,7 +68,11 @@ h1 {
 }
 
 main {
-  
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 5;
+
 }
 
 /* Sidebar */
@@ -79,6 +87,26 @@ aside {
 aside img {
   width: 250px;
   height: auto;
+  border-radius: 5px;
+}
+
+aside h3 {
+  font-weight: 400;
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+aside p {
+  font-size: 1.4rem;
+  padding: 10px;
+}
+
+
+
+aside a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #13304A;
 }
 
 /* footer */
