@@ -65,7 +65,13 @@ main {
   grid-column-start: 1;
   grid-column-end: 5;
   grid-row-start: 3;
-  grid-row-end: 5;
+  grid-row-end: 6;
+  margin-left: 20px;
+}
+
+.section-1 {
+  place-self: center;
+  padding-bottom: 20px;
 }
 
 h1 {
@@ -76,10 +82,20 @@ h1 {
 
 .section-1 p {
   font-size: 1.6rem;
+  padding-right: 25px;
 }
 
-.section-1 {
-  margin-left: 20px;
+.section-1-image {
+  display: grid;
+  place-self: center;
+}
+
+#main {
+  width: 100px;
+}
+
+.section-2 {
+  place-self: center;
 }
 
 .section-2 h2 {
@@ -88,10 +104,20 @@ h1 {
   text-align: center;
 }
 
-.section-2 img {
-width: 650px;
+.section-2 p {
+  font-size: 1.6rem;
+  padding-right: 25px;
 }
 
+.section-2-image {
+  display: grid;
+  place-self: center;
+}
+
+#image-2 {
+width: 850px;
+padding-bottom: 15px;
+}
 
 /* Sidebar */
 
@@ -130,6 +156,8 @@ aside a {
 
 footer {
   grid-area: footer;
+  grid-row-start: 5;
+  grid-row-end: 6;
   background-color: #97A989;
 }
 
