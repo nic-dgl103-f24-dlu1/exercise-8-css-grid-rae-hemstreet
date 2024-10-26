@@ -57,14 +57,33 @@ nav a {
 
 /* main content */
 
+h1 {
+  text-align: center;
+  font-weight: 300;
+  font-size: 3.6rem;
+}
+
+main {
+  
+}
+
 /* Sidebar */
 
 aside {
   grid-area: sidebar;
+  background-color: #BEE0EE;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+aside img {
+  width: 250px;
+  height: auto;
 }
 
 /* footer */
 
 footer {
   grid-area: footer;
+  background-color: #97A989;
 }
