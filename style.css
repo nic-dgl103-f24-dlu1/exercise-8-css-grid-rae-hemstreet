@@ -16,6 +16,8 @@ body {
   background-color: #fff9ee;
   font-family: "Poppins", sans-serif;
   gap: 10px;
+  max-width: 1170px;
+  margin: auto;
 }
 
 /* Header */
@@ -74,6 +76,9 @@ main {
 .section-1 {
   place-self: center;
   padding-bottom: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 h1 {
@@ -93,11 +98,14 @@ h1 {
 }
 
 #main {
-  width: 100px;
+  max-width: 100px;
 }
 
 .section-2 {
   place-self: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 }
 
 .section-2 h2 {
@@ -114,11 +122,15 @@ h1 {
 .section-2-image {
   display: grid;
   place-self: center;
+  justify-self: center;
 }
 
 #image-2 {
-  width: 850px;
+  max-width: 850px;
   padding-bottom: 15px;
+  padding-top: 5px;
+  align-self: center;
+  justify-self: center;
 }
 
 /* Sidebar */
@@ -135,6 +147,7 @@ aside {
   flex-flow: column wrap;
   justify-content: center;
   max-height: fit-content;
+  max-width: fit-content;
   margin-top: 125px;
 }
 
@@ -161,6 +174,10 @@ aside a {
   color: #13304a;
 }
 
+.shop-link {
+  font-weight: 500;
+}
+
 /* footer */
 
 footer {
@@ -175,7 +192,6 @@ footer {
 .footer-flex {
   display: flex;
   flex-flow: row wrap;
-  gap: 15px;
   justify-content: space-between;
   align-items: center;
 }
@@ -221,11 +237,4 @@ footer a {
   color: white;
   font-size: 1.6rem;
   padding-right: 25px;
-}
-
-footer small {
-  color: #13304a;
-  font-size: 1rem;
-  display: block;
-  text-align: center;
 }
